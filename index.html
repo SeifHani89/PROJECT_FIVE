@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title></title>
+</head>
+<body>
+    <div class="instructions items-c">
+        <div class="arrows">
+            <i class="fa-solid fa-angles-left left-arr"></i>
+            <i class="fa-solid fa-angles-right right-arr"></i>
+        </div>
+        <div class="container">
+            <div class="welcome">
+                <h2>Welcome To Hangman Game!</h2>
+                <p>This Is A Beautiful And Entertainig Game</p>
+            </div>
+            <div class="welcome">
+                <h2>How To Play?</h2>
+                <p>First, Yor're Required To Geuss A Word With Your Keyboard,
+                    And If You Write Right Letter, It Was Written In Its place
+                    And If You Write Wrong Letter, Your Gallow Will Be Preparing For You.
+                    So, Don't Be A <span>"Hangman"</span>
+                </p>
+            </div>
+            <div class="welcome">
+                <h2>What You Gain?</h2>
+                <ul>
+                    <li>You Icrease The Speed Of Your Wits</li>
+                    <li>You increase your ability to think under pressure</li>
+                    <li>You Gain Coins To Use Them Later</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bullets">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <span class="skip">skip <i class="fa-solid fa-angles-right right-arr"></i></span>
+    </div>
+    <div class="game-container">
+        <div class="game-controls">
+            <div class="timer"></div>
+            <button class="hint"><span>3</span> <i class="fa-solid fa-coins"></i>Hint</button>
+        </div>
+        <div class="word-desc"></div>
+        <div class="game-space">
+            <div class="game-play">
+                <div class="start"><button>Start Game</button></div>
+                <div class="inputs"></div>
+                <div class="message"></div>
+            </div>
+            <div class="hangman">
+                <div class="stand"></div>
+                <div class="column"></div>
+                <div class="to-right"></div>
+                <div class="to-bottom"></div>
+                <div class="circule"></div>
+                <div class="rescued head"></div>
+                <div class="rescued body"></div>
+                <div class="rescued right-hand"></div>
+                <div class="rescued left-hand"></div>
+                <div class="rescued right-leg"></div>
+                <div class="rescued left-leg"></div>
+            </div>
+        </div>
+    </div>
+
+    <audio src="audios/genickbruch-107521.mp3" class="kill"></audio>
+    <script src="master.js"></script>
+</body>
+</html>
